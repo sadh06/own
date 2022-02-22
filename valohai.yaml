@@ -6,7 +6,7 @@
     command: 
       - pip install -r requirements.txt
       - pip install valohai-utils
-      - python train-prev.py {parameters}
+      - python train.py {parameters}
     #inputs:
     #  - name: example-input
     #    default: https://example.com/
